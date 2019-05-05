@@ -7,8 +7,6 @@ image:
 noindex: true
 ---
 
-블로그를 열면서
-
 ### 갑자기 블로그는 왜?
 
 > 회사에서 하루종일 개발을 하고 오면 집에서까지 개발을 하기가 싫어진다.
@@ -21,7 +19,6 @@ noindex: true
 
 
 ### 관련 링크
----------
 * [나의 블로그][link-example]
 * [MarkDown 사용법][link-markdownmanual]
 

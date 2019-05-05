@@ -19,7 +19,9 @@ MVP + Clean Architecture 구조 잡기 1
 ### MVP + Clean Architecture
 
 > 안드로이드는 구글에 검색하면 자료가 참 많이 나와서 좋다.
-> [우아한형제들 기술 블로그][link-wooatechblog]와 Google의 [MVP + Clean Architecture google sample app][link-googlesampleapp] github를 참고하였다.
+> [우아한형제들 기술 블로그][link-wooatechblog]와
+> Google의 [MVP + Clean Architecture google sample app][link-googlesampleapp]을
+> 참고하였다.
 
 - entity, data, domain, presentation으로 패키지를 나누어주고,
 
@@ -81,7 +83,6 @@ public class MainContentPresenter implements MainContentContract.Presenter {
 > 일단 이렇게 구조를 만들어 두면, 이후에는 Ctrl + C, Ctrl + V의 향연이 될 것이다. Good!
 
 ### 참고 사이트
-
 * [우아한형제들 기술 블로그][link-wooatechblog]
 * [MVP + Clean Architecture google sample app][link-googlesampleapp]
 
