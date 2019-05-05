@@ -7,6 +7,7 @@ image:
 noindex: true
 ---
 
+MVP + Clean Architecture 구조 잡기 1
 
 ### 무슨 구조를 사용할까?
 
