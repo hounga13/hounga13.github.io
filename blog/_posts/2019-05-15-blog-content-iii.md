@@ -7,17 +7,15 @@ image:
 noindex: true
 ---
 
-MVP + Clean Architecture 구조 잡기 1
-
-### 무슨 구조를 사용할까?
-
+무슨 구조를 사용할까?
+--------------------
 > 소프트웨어 아키텍쳐에 대해 문외한이지만,
 > 회사에서 안드로이드 업무를 시작하고 맡은 프로젝트에서 사용한
 > MVP 패턴과 **Clean architecture** 의 조합을 사용해보기로 하였다.
 
 
-### MVP + Clean Architecture
-
+MVP + Clean Architecture
+------------------------
 > 안드로이드는 구글에 검색하면 자료가 참 많이 나와서 좋다.
 > [우아한형제들 기술 블로그][link-wooatechblog]와
 > Google의 [MVP + Clean Architecture google sample app][link-googlesampleapp]을
@@ -82,7 +80,8 @@ public class MainContentPresenter implements MainContentContract.Presenter {
 
 > 일단 이렇게 구조를 만들어 두면, 이후에는 Ctrl + C, Ctrl + V의 향연이 될 것이다. Good!
 
-### 참고 사이트
+참고 사이트
+-----------
 * [우아한형제들 기술 블로그][link-wooatechblog]
 * [MVP + Clean Architecture google sample app][link-googlesampleapp]
 
