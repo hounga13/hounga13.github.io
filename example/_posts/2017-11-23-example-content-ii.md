@@ -1,30 +1,19 @@
 ---
 layout: post
-title: 하루에 열줄씩
+title: Example Content II
 description: >
-  블로그를 열면서.
+  A page showing how regular markdown content is styled in Hydejack.
+image: /assets/img/blog/example-content-ii.jpg
 noindex: true
 ---
 
-회사에서 하루종일 개발을 하고 오면 집에서까지 개발을 하기가 싫어진다.
+There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-업무가 아닌 놀이로써의 개발을 하고 싶어 **"하루에 열줄씩"** 프로젝트를 시작해본다.
+There should be whitespace between paragraphs.
 
-이 블로그는 그 한 걸음, 한 걸음을 기록으로 남겨두고자 만들었다.  
-
-그럼 이제부터 시작해볼까?
+Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](another-page).
-
-## 관련 링크
----------
-* [나의 블로그](link-example)
-* [MarkDown 사용법](link-markdownmanual)
-
-
-[link-example]: https://hounga13.github.io
-[link-markdownmanual]: https://heropy.blog/2017/09/30/markdown/
-
 
 ## Header 2
 
