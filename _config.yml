@@ -52,6 +52,8 @@ menu:
     url:               /intro/
   - title:             Blog
     url:               /blog/
+  - title:             About
+    url:               /about/
   - title:             Documentation
     url:               https://hydejack.com/docs/
 
