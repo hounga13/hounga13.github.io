@@ -3,6 +3,7 @@ layout: post
 title: MVP + Clean Architecture 구조 잡기 1
 description: >
   MVP + Clean Architecture 구조 잡기 1
+image: 
 noindex: true
 ---
 

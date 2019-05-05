@@ -3,6 +3,7 @@ layout: post
 title: 하루에 열줄씩
 description: >
   블로그를 열면서
+image: 
 noindex: true
 ---
 
