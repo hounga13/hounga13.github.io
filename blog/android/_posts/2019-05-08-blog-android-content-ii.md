@@ -18,9 +18,7 @@ Fragment의 생성: Factory Method Pattern
 
 - 생성자는 Private
 ```java
-private MainContentFragment() {
-
-}
+private MainContentFragment() { }
 ```
 
 
