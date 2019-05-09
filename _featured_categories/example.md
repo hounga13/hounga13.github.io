@@ -1,6 +1,6 @@
 ---
 # Featured tags need to have the `list` layout.
-layout: list
+layout: blog
 
 # The title of the tag's page.
 title: Example
