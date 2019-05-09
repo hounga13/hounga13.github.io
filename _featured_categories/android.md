@@ -1,9 +1,9 @@
 ---
 # Featured tags need to have the `list` layout.
-layout: list
+layout: blog
 
 # The title of the tag's page.
-title: Android tags page
+title: Android
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
 slug: android
