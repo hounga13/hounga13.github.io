@@ -52,6 +52,8 @@ menu:
     url:               /intro/
   - title:             Blog
     url:               /blog/
+  - title:             Android
+    url:               /android/
   - title:             About
     url:               /about/
   - title:             Example
