@@ -14,6 +14,8 @@
         .app-card h2 { margin-top: 0; color: #222; font-size: 1.3rem; }
         a.play-btn { display: inline-block; margin-top: 10px; padding: 10px 20px; background-color: #f7323f; color: white; text-decoration: none; border-radius: 8px; font-weight: bold; }
         a.play-btn:hover { background-color: #e3212e; }
+        a.play-btn.stock-btn { background-color: #0b2265; } /* 주식/금융 느낌의 네이비 컬러 */
+        a.play-btn.stock-btn:hover { background-color: #06123a; }
         .seo-content { font-size: 0.9em; color: #666; margin-top: 15px; border-top: 1px dashed #eee; padding-top: 15px; }
         footer { margin-top: 40px; text-align: center; color: #aaa; font-size: 0.85rem; padding-top: 20px; border-top: 1px solid #eee; }
     </style>
@@ -22,17 +24,26 @@
     <h1>🌟 Hounga Studio</h1>
     <p><strong>Hounga Studio</strong>는 일상에 작은 즐거움과 편리함을 더해주는 가벼운 '스낵형 웹 애플리케이션(Snack Web App)'을 기획하고 개발하는 개인 포트폴리오 공간입니다. 복잡한 설치나 회원가입 없이 누구나 웹 브라우저만으로 즉시 접근하고 즐길 수 있는 유용한 도구들을 제공합니다.</p>
     
+    <!-- 첫 번째 프로젝트: 전인구 탐지기 -->
+    <div class="app-card">
+        <h2>📈 전인구 탐지기 (역발상 투자 AI 분석)</h2>
+        <p><strong>"그가 살 때 팔고, 그가 팔 때 사라!"</strong><br>유명 경제 유튜버 '전인구 경제연구소'의 최신 영상 스크립트와 뉘앙스를 인공지능(AI) 기술로 분석하여, 현재 시장 상황에 대한 정반대의 투자 포지션(인버스 매매)을 위트 있게 제안하는 금융/엔터테인먼트 시뮬레이터입니다.</p>
+        <p class="seo-content">단순한 유머를 넘어 최신 자연어 처리 알고리즘 모델링을 사용하여 맥락을 분석하고, 주식 관련 커뮤니티에서 유행하는 '반대 매매' 밈(Meme)을 시스템화한 결과물을 산출합니다. 경제와 주식 투자를 즐기는 유저들에게 즐거운 인사이트를 제공하도록 React.js 등 최신 웹 프레임워크 기술로 개발되었습니다.</p>
+        <a href="/anti-jeon-oracle/" class="play-btn stock-btn">👉 앱 실행하기 (Play)</a>
+    </div>
+
+    <!-- 두 번째 프로젝트: 오늘 어때? -->
     <div class="app-card">
         <h2>🔮 오늘 어때? (운세 스낵 콘텐츠)</h2>
         <p>현대인들에게 오늘의 운세는 단순한 미신을 넘어 하루를 준비하는 작은 활력소가 됩니다. 불확실한 무작위 데이터에 의존하지 않고, 당신만의 고유한 정보(이름, 생년월일)를 이용한 독자적인 해시 알고리즘으로 설계된 결정론적 운세 해석 엔진입니다.</p>
-        <p class="seo-content">이 웹앱은 금전운, 연애운, 대인운 등의 점수화된 수치와 개인 맞춤형 행운의 아이템, MBTI 매칭 데이터를 처리합니다. 사용자가 브라우저 내장 Web Share API 및 클립보드 복사를 통해 카카오톡 등 소셜 네트워크로 결과를 손쉽게 바이럴할 수 있도록 최적화된 UI/UX 및 이미지 캡처 렌더링을 제공합니다.</p>
+        <p class="seo-content">이 웹앱은 금전운, 연애운, 대인운 등의 점수화된 수치와 개인 맞춤형 행운의 아이템, MBTI 매칭 데이터를 처리합니다. 사용자가 브라우저 내장 Web Share API 및 클립보드 복사를 통해 카카오톡 등 소셜 네트워크로 결과를 손쉽게 바이럴할 수 있도록 최적화된 UI/UX 및 사파리(iOS) 호환 고해상도 이미지 캡처 렌더링을 지원합니다.</p>
         <a href="/howstoday/" class="play-btn">👉 앱 실행하기 (Play)</a>
     </div>
 
-    <!-- 구글 봇에게 '앞으로도 콘텐츠가 늘어날 정상적인 사이트'임을 어필하기 위한 더미 콘텐츠 -->
+    <!-- 더미 프로젝트 (구글 봇 승인용 텍스트 필러) -->
     <div class="app-card">
         <h2>🔜 (출시 예정) 난수 생성 시뮬레이터</h2>
-        <p>통계적 확률 기반의 완전한 난수 생성(RNG) 알고리즘을 활용한 번호 추출 도구입니다. UI 디자인 기획 단계에 있으며, 곧 이 스튜디오 허브를 통해 정식으로 업데이트 및 배포될 예정입니다. 가벼운 모바일 웹 환경에서 곧 만나보실 수 있습니다.</p>
+        <p>통계적 확률 기반의 완전한 난수 생성(RNG) 알고리즘을 활용한 번호 추출 도구입니다. UI 디자인 기획 단계에 있으며, 모바일 최적화된 가벼운 웹 환경에서 곧 만나보실 수 있습니다.</p>
     </div>
 
     <footer>
